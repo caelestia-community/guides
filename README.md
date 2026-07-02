@@ -166,7 +166,7 @@ $ makepkg -si
 ```bash
 $ git clone https://aur.archlinux.org/yay.git
 $ cd yay
-# makepkg -si
+$ makepkg -si
 ```
 
 Once you have installed your preferred AUR helper, it's time to install the
