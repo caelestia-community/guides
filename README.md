@@ -65,6 +65,7 @@ If it times out, you will need to manually setup your internet connection.
 To ensure your network interface is listed and enabled, run `ip-link`.
 
 For wireless and WWAN, make sure the card is not blocked with [rfkill].
+
 You have 3 main options to connect to the network:
 
 - **Ethernet**: plug in the cable.
