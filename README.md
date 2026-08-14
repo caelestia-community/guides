@@ -61,10 +61,7 @@ Once you have booted up your live image, you will be presented by a simple
 terminal welcoming you to the Arch installation medium, and suggesting that
 you verify your internet connection and follow the [Installation guide]. Verify you have
 internet access by running `ping ping.archlinux.org`.
-If it times out, you will need to manually setup your internet connection.
-To ensure your network interface is listed and enabled, run `ip-link`.
-
-For wireless and WWAN, make sure the card is not blocked with [rfkill].
+If it times out, you will need to manually setup your internet connection. To ensure your network interface is listed and enabled, run `ip link`. For wireless and WWAN, make sure the card is not blocked with [rfkill].
 
 You have 3 main options to connect to the network:
 
@@ -163,7 +160,7 @@ and follow the below instructions to install it:
 ### paru
 
 ```bash
-$ git clone [https://aur.archlinux.org/paru.git](https://aur.archlinux.org/paru.git)
+$ git clone https://aur.archlinux.org/paru.git
 $ cd paru
 $ makepkg -si
 ```
@@ -171,7 +168,7 @@ $ makepkg -si
 ### yay
 
 ```bash
-$ git clone [https://aur.archlinux.org/yay.git](https://aur.archlinux.org/yay.git)
+$ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si
 ```
