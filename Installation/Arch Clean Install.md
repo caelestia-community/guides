@@ -1,4 +1,4 @@
-# Installing Caelestia on ArchLinux from a Blank Slate
+# Installing Caelestia on ArchLinux with archinstall
 
 Look, I get it. Arch isn't easy. But then, it's not intended to be easy. All
 Linux distros are just a collection of software built on the Linux kernel, but
