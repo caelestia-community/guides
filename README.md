@@ -167,17 +167,17 @@ and follow the below instructions to install it:
 ### paru
 
 ```bash
-$ git clone https://aur.archlinux.org/paru.git
-$ cd paru
-$ makepkg -si
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 ```
 
 ### yay
 
 ```bash
-$ git clone https://aur.archlinux.org/yay.git
-$ cd yay
-$ makepkg -si
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 ```
 
 Once you have installed your preferred AUR helper, it's time to install the
@@ -187,7 +187,7 @@ you want to install `caelestia-cli` or `caelestia-cli-git`, select the standard
 (non-git) version.
 
 ```bash
-$ paru -S caelestia-cli
+paru -S caelestia-cli
 ```
 
 Once the install is completed, double-check that it installed successfully by
