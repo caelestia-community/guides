@@ -59,9 +59,11 @@ detail than this guide will, and you're more likely to learn something from it.
 
 Once you have booted up your live image, you will be presented by a simple
 terminal welcoming you to the Arch installation medium, and suggesting that
-you verify your internet connection and follow the [Installation guide]. Verify you have
-internet access by running `ping ping.archlinux.org`.
-If it times out, you will need to manually setup your internet connection. To ensure your network interface is listed and enabled, run `ip link`. For wireless and WWAN, make sure the card is not blocked with [rfkill].
+you verify your internet connection and follow the [Installation guide].
+Verify you have internet access by running `ping ping.archlinux.org`.
+If it times out, you will need to manually setup your internet connection. To
+ensure your network interface is listed and enabled, run `ip link`. For
+wireless and WWAN, make sure the card is not blocked with [rfkill].
 
 You have 3 main options to connect to the network:
 
@@ -144,6 +146,11 @@ if you want to reboot. You do. When prompted, remove the installation medium
 and when you reboot you will find yourself at a login prompt. Login as the
 user you created during the install, and once again ensure you have internet
 access.
+
+Keep in mind that you won't have an active internet connection right after
+rebooting. You can easily connect using nmtui, a text-based interface
+for NetworkManager. It's intuitive enough that you won't need a guide to
+figure it out.
 
 ## Installing Caelestia
 
